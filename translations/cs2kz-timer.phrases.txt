@@ -135,7 +135,11 @@
 		"#format"	"points:.0f,points_gained:.0f,player_rating:.0f"
 		"en"		"{grey}Course Points: {purple}{points}{grey} {yellow}Overall{grey} (+{purple}{points_gained}{grey}) | Player Rating: {purple}{player_rating}{grey}"
 		"ua"		"{grey}Очки за курс: {purple}{points}{grey} {yellow}Загалом{grey} (+{purple}{points_gained}{grey}) | Рейтинг гравця: {purple}{player_rating}{grey}"
+<<<<<<< HEAD
 		"sv"		"{grey}Ban Poäng: {purple}{points}{grey} {yellow}Allmän{grey} (+{purple}{points_gained}{grey}) | Spelar Gradering: {purple}{player_rating}{grey}"
+=======
+
+>>>>>>> cf7b7f3 (Ukrainian translation - 9th Jan)
 	}
 	"Beat Course Info - Global Points (PRO)"
 	{
@@ -143,7 +147,10 @@
 		"#format"	"points:.0f,points_gained:.0f,points_pro:.0f,points_gained_pro:.0f,player_rating:.0f"
 		"en"		"{grey}Course Points: {purple}{points}{grey} {yellow}Overall{grey} (+{purple}{points_gained}{grey}) / {purple}{points}{grey} {blue}PRO{grey} (+{purple}{points_gained}{grey}) | Player Rating: {purple}{player_rating}{grey}"
 		"ua"		"{grey}Очки за курс: {purple}{points}{grey} {yellow}Загалом{grey} (+{purple}{points_gained}{grey}) / {purple}{points}{grey} {blue}PRO{grey} (+{purple}{points_gained}{grey}) | Рейтинг гравця: {purple}{player_rating}{grey}"
+<<<<<<< HEAD
 		"sv"		"{grey}Ban Poäng: {purple}{points}{grey} {yellow}Allmän{grey} (+{purple}{points_gained}{grey}) / {purple}{points}{grey} {blue}PRO{grey} (+{purple}{points_gained}{grey}) | Spelar Gradering: {purple}{player_rating}{grey}"
+=======
+>>>>>>> cf7b7f3 (Ukrainian translation - 9th Jan)
 	}
 	
 	"Can't Pause (Generic)"
