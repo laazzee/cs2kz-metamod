@@ -132,10 +132,7 @@
 		"#format"	"time:s,tp_count_text:s,rank:d,max_rank:d,points:d"
 		"en"		"{grey}Global: {default}{time}{grey} ({yellow}{tp_count_text}{grey}) [#{default}{rank}{grey}/{default}{max_rank}{grey} {yellow}Overall{grey} / {purple}{points}{grey} pts]"
 		"ua"		"{grey}Глобально: {default}{time}{grey} ({yellow}{tp_count_text}{grey}) [#{default}{rank}{grey}/{default}{max_rank}{grey} {yellow}Загальний{grey} / {purple}{points}{grey} очок]"
-<<<<<<< HEAD
 		"sv"		"{grey}Global: {default}{time}{grey} ({yellow}{tp_count_text}{grey}) [#{default}{rank}{grey}/{default}{max_rank}{grey} {yellow}Allmän{grey} / {purple}{points}{grey} pts]"
-=======
->>>>>>> cf7b7f3 (Ukrainian translation - 9th Jan)
 	}
 	"PB Time - Combined (Global)"
 	{
@@ -143,10 +140,7 @@
 		"#format"	"time:s,rank:d,max_rank:d,rank_pro:d,max_rank_pro:d,points:d,points_pro:d"
 		"en"		"{grey}Global: {default}{time}{grey} [#{default}{rank}{grey}/{default}{max_rank}{grey} {yellow}Overall{grey} / {purple}{points}{grey} pts] [#{default}{rank_pro}{grey}/{default}{max_rank_pro}{grey} {blue}PRO{grey} / {purple}{points_pro}{grey} pts]"
 		"ua"		"{grey}Глобально: {default}{time}{grey} [#{default}{rank}{grey}/{default}{max_rank}{grey} {yellow}Загальний{grey} / {purple}{points}{grey} очок] [#{default}{rank_pro}{grey}/{default}{max_rank_pro}{grey} {blue}PRO{grey} / {purple}{points_pro}{grey} очок]"
-<<<<<<< HEAD
 		"sv"		"{grey}Global: {default}{time}{grey} [#{default}{rank}{grey}/{default}{max_rank}{grey} {yellow}Allmän{grey} / {purple}{points}{grey} pts] [#{default}{rank_pro}{grey}/{default}{max_rank_pro}{grey} {blue}PRO{grey} / {purple}{points_pro}{grey} pts]"
-=======
->>>>>>> cf7b7f3 (Ukrainian translation - 9th Jan)
 	}
 	"PB Time - Split (Global)"
 	{
