@@ -91,8 +91,13 @@ void KZRecordingService::Reset()
 		this->circularRecording->jumps.clear();
 	}
 	this->runRecorders.clear();
+	this->jumpRecorders.clear();
 	this->lastCmdNumReceived = 0;
 	this->currentRunUUID = UUID_t(false);
+	this->lastKnownMode = {};
+	this->lastKnownStyles.clear();
+	this->currentWeaponID = -1;
+	this->weapons.clear();
 }
 
 void KZRecordingService::RecordTickData_PhysicsSimulate()
