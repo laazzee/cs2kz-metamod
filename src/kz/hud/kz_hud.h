@@ -40,6 +40,7 @@ public:
 		if (this->player->GetMoveType() == MOVETYPE_LADDER)
 		{
 			fromDuckbug = false;
+			crouchJumping = false;
 		}
 	}
 
