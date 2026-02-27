@@ -113,6 +113,11 @@ SCMD(kz_end, SCFL_MAP)
 			player->languageService->PrintChat(true, false, "No End Position For Course", courseName.Get());
 		}
 	}
+	else
+	{
+		player->languageService->PrintChat(true, false, "No Active Course");
+		return MRES_SUPERCEDE;
+	}
 
 	if (shouldTeleport)
 	{

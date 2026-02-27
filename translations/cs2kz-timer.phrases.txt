@@ -368,6 +368,15 @@
 		"lv"		"{darkred}Starta pozīcija netika atrasta trasei {default}{course_name}{darkred}!"
 		"de"		"{darkred}Startposition für Route {default}{course_name}{darkred} nicht gefunden!"
 	}
+	"No End Position For Course"
+	{
+		"#format"	"course_name:s"
+		"en"		"{darkred}End position not found for course {default}{course_name}{darkred}!"
+	}
+	"No Active Course"
+	{
+		"en"		"{grey}You currently have no active course."
+	}
 	"No Jumpstat Area Found"
 	{
 		"en"		"{darkred}Jumpstat area not found on this map!"
