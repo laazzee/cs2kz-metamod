@@ -122,8 +122,13 @@ void KZProfileService::RequestRating()
 		return;
 	}
 	this->timeToNextRatingRefresh = g_pKZUtils->GetServerGlobals()->realtime + RATING_REFRESH_PERIOD + RandomFloat(-30.0f, 30.0f);
-	std::string url = std::string(KZOptionService::GetOptionStr("apiUrl", "https://api.cs2kz.org")) + "/players/" + std::to_string(steamID64)
-					  + "/profile?mode=" + std::to_string(static_cast<u8>(mode));
+	std::string apiURL = std::string(KZOptionService::GetOptionStr("apiUrl", "https://api.cs2kz.org"));
+	// Removing trailing slash if present to avoid double slashes in the URL.
+	if (!apiURL.empty() && apiURL.back() == '/')
+	{
+		apiURL.pop_back();
+	}
+	std::string url = apiURL + "/players/" + std::to_string(steamID64) + "/profile?mode=" + std::to_string(static_cast<u8>(mode));
 	HTTP::Request request(HTTP::Method::GET, url);
 	if (kz_profile_debug.GetBool())
 	{
