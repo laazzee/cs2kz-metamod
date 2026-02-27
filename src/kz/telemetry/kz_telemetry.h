@@ -88,7 +88,7 @@ public:
 	Vector preOutWishVel;
 	void OnJumpModern();
 	void OnJumpModernPost();
-	void PrintModernBhopStats();
+	void PrintModernBhopStats(KZPlayer *recipient = nullptr);
 
 	void ResetModernBhopStats()
 	{
@@ -97,7 +97,7 @@ public:
 
 	void OnJumpLegacy();
 	void OnJumpLegacyPost();
-	void PrintLegacyBhopStats();
+	void PrintLegacyBhopStats(KZPlayer *recipient = nullptr);
 
 	void ResetLegacyBhopStats()
 	{

@@ -7,6 +7,32 @@
 #define AFK_THRESHOLD 30.0f
 f64 KZTelemetryService::lastActiveCheckTime = 0.0f;
 
+static_function KZPlayer *FindPerfStatsTarget(KZPlayer *requester, const char *playerNamePart)
+{
+	if (!playerNamePart || !V_stricmp("", playerNamePart))
+	{
+		return requester;
+	}
+
+	for (i32 i = 0; i <= MAXPLAYERS; i++)
+	{
+		CBasePlayerController *controller = g_pKZPlayerManager->players[i]->GetController();
+		KZPlayer *otherPlayer = g_pKZPlayerManager->ToPlayer(i);
+
+		if (!controller || !otherPlayer)
+		{
+			continue;
+		}
+
+		if (V_strstr(V_strlower((char *)otherPlayer->GetName()), V_strlower((char *)playerNamePart)))
+		{
+			return otherPlayer;
+		}
+	}
+
+	return nullptr;
+}
+
 void KZTelemetryService::OnJumpModern()
 {
 	this->preOutWishVel = this->player->currentMoveData->m_outWishVel;
@@ -91,15 +117,25 @@ void KZTelemetryService::OnJumpLegacyPost()
 	}
 }
 
-void KZTelemetryService::PrintLegacyBhopStats()
+void KZTelemetryService::PrintLegacyBhopStats(KZPlayer *recipient)
 {
+	if (!recipient)
+	{
+		recipient = this->player;
+	}
+
 	// Bhops: 200 | 25% Perf (50)
-	this->player->languageService->PrintChat(true, false, "Telemetry - Legacy Bhop Stats", this->legacyBhopStats.GetTotalJumps(),
-											 this->legacyBhopStats.GetPerfRatio() * 100.0f, this->legacyBhopStats.numPerfs);
+	recipient->languageService->PrintChat(true, false, "Telemetry - Legacy Bhop Stats", this->legacyBhopStats.GetTotalJumps(),
+										  this->legacyBhopStats.GetPerfRatio() * 100.0f, this->legacyBhopStats.numPerfs);
 }
 
-void KZTelemetryService::PrintModernBhopStats()
+void KZTelemetryService::PrintModernBhopStats(KZPlayer *recipient)
 {
+	if (!recipient)
+	{
+		recipient = this->player;
+	}
+
 	// Bhops: 200 | 25% True (50) | 10% Modern (20)
 	auto &modernStats = this->modernBhopStats;
 	f32 truePerfPercent = 0;
@@ -111,9 +147,9 @@ void KZTelemetryService::PrintModernBhopStats()
 		modernPerfEarlyPercent = (f32)modernStats.numModernPerfsEarly / (f32)modernStats.GetTotalJumps() * 100.0f;
 		modernPerfLatePercent = (f32)modernStats.numModernPerfsLate / (f32)modernStats.GetTotalJumps() * 100.0f;
 	}
-	this->player->languageService->PrintChat(true, false, "Telemetry - Modern Bhop Stats", modernStats.GetTotalJumps(), truePerfPercent,
-											 modernStats.numTruePerfs, modernPerfEarlyPercent, modernStats.numModernPerfsEarly, modernPerfLatePercent,
-											 modernStats.numModernPerfsLate);
+	recipient->languageService->PrintChat(true, false, "Telemetry - Modern Bhop Stats", modernStats.GetTotalJumps(), truePerfPercent,
+										  modernStats.numTruePerfs, modernPerfEarlyPercent, modernStats.numModernPerfsEarly, modernPerfLatePercent,
+										  modernStats.numModernPerfsLate);
 }
 
 void KZTelemetryService::OnPhysicsSimulatePost()
@@ -161,7 +197,14 @@ void KZTelemetryService::ActiveCheck()
 SCMD(kz_modernperfstats, SCFL_PLAYER)
 {
 	KZPlayer *player = g_pKZPlayerManager->ToPlayer(controller);
-	player->telemetryService->PrintModernBhopStats();
+	KZPlayer *targetPlayer = FindPerfStatsTarget(player, args->ArgS());
+	if (!targetPlayer)
+	{
+		player->languageService->PrintChat(true, false, "Error Message (Player Not Found)", args->ArgS());
+		return MRES_SUPERCEDE;
+	}
+
+	targetPlayer->telemetryService->PrintModernBhopStats(player);
 	return MRES_SUPERCEDE;
 }
 
@@ -170,7 +213,14 @@ SCMD_LINK(kz_mps, kz_modernperfstats);
 SCMD(kz_legacyperfstats, SCFL_PLAYER)
 {
 	KZPlayer *player = g_pKZPlayerManager->ToPlayer(controller);
-	player->telemetryService->PrintLegacyBhopStats();
+	KZPlayer *targetPlayer = FindPerfStatsTarget(player, args->ArgS());
+	if (!targetPlayer)
+	{
+		player->languageService->PrintChat(true, false, "Error Message (Player Not Found)", args->ArgS());
+		return MRES_SUPERCEDE;
+	}
+
+	targetPlayer->telemetryService->PrintLegacyBhopStats(player);
 	return MRES_SUPERCEDE;
 }
 
