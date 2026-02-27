@@ -38,7 +38,10 @@ static_global std::string GetDefaultMapName()
 		{
 			end = commandLine.length();
 		}
-		return commandLine.substr(start, end - start);
+		// We also need to remove all the quotes that the user might have put around the map name.
+		std::string mapName = commandLine.substr(start, end - start);
+		mapName.erase(std::remove(mapName.begin(), mapName.end(), '\"'), mapName.end());
+		return mapName;
 	}
 	else
 	{
