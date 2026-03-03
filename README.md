@@ -11,13 +11,13 @@ Automated translation linter reports for cs2kz-metamod.
 | **Total Languages** | 13 |
 | **Total Phrases** | 568 |
 | **Phrases Missing Translations** | 488 |
-| **Total Missing Entries** | 2558 |
+| **Total Missing Entries** | 2512 |
 | **Menu Files** | 9 |
 
 ## Language Coverage (Phrases)
 
 ```
-  chi (schinese)       [██████████████████░░]  91.4% (519/568)
+  chi (schinese)       [███████████████████░]  99.5% (565/568)
   de (german)          [██████████████████░░]  91.4% (519/568)
   en (english)         [████████████████████] 100.0% (568/568)
   es (spanish)         [██████████░░░░░░░░░░]  50.7% (288/568)
@@ -79,9 +79,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`a4838df`](https://github.com/laazzee/cs2kz-metamod/commit/a4838dfadc0e0db9e2c720b1b5e4ee8b9ea175e6)
-- **Time:** 2026-02-27 16:20:06 UTC
-- **Message:** Fix trailing slash issue with profile service
+- **Commit:** [`a040930`](https://github.com/laazzee/cs2kz-metamod/commit/a0409300774f3977688acd7f380a7710c4807aba)
+- **Time:** 2026-03-03 21:02:34 UTC
+- **Message:** Prevent pausing if the player just landed
 
 ---
 
