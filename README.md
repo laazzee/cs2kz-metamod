@@ -10,9 +10,9 @@ Automated translation linter reports for cs2kz-metamod.
 | **Linter Warnings** | 24 |
 | **Total Languages** | 13 |
 | **Total Phrases** | 568 |
-| **Phrases Missing Translations** | 488 |
-| **Total Missing Entries** | 2512 |
-| **Menu Files** | 9 |
+| **Phrases Missing Translations** | 348 |
+| **Total Missing Entries** | 2036 |
+| **Menu Files** | 10 |
 
 ## Language Coverage (Phrases)
 
@@ -23,10 +23,10 @@ Automated translation linter reports for cs2kz-metamod.
   es (spanish)         [██████████░░░░░░░░░░]  50.7% (288/568)
   fi (finnish)         [████████░░░░░░░░░░░░]  41.9% (238/568)
   it (italian)         [████████░░░░░░░░░░░░]  40.5% (230/568)
-  ko (koreana)         [██████████░░░░░░░░░░]  51.2% (291/568)
+  ko (korean)          [██████████░░░░░░░░░░]  51.2% (291/568)
   lv (latvian)         [███████████░░░░░░░░░]  58.6% (333/568)
   pl (polish)          [██████████████████░░]  91.7% (521/568)
-  ru (russian)         [███░░░░░░░░░░░░░░░░░]  16.2% (92/568)
+  ru (russian)         [████████████████████] 100.0% (568/568)
   sv (swedish)         [█████████████░░░░░░░]  69.9% (397/568)
   tr (turkish)         [█████████░░░░░░░░░░░]  47.0% (267/568)
   ua (ukrainian)       [███████████████████░]  99.1% (563/568)
@@ -59,7 +59,7 @@ Automated translation linter reports for cs2kz-metamod.
   pt    (brazilian   ): File missing
   pt_p  (portuguese  ): File missing
   ro    (romanian    ): File missing
-  ru    (russian     ): File missing
+  ru    (russian     ): Complete
   sk    (slovak      ): File missing
   sv    (swedish     ): Complete
   th    (thai        ): File missing
@@ -79,9 +79,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`a040930`](https://github.com/laazzee/cs2kz-metamod/commit/a0409300774f3977688acd7f380a7710c4807aba)
-- **Time:** 2026-03-03 21:02:34 UTC
-- **Message:** Prevent pausing if the player just landed
+- **Commit:** [`2b88cb7`](https://github.com/laazzee/cs2kz-metamod/commit/2b88cb7b7245db11c0dcda02a210efbf4df62976)
+- **Time:** 2026-03-15 18:41:13 UTC
+- **Message:** Russian translation updates (#524)
 
 ---
 
