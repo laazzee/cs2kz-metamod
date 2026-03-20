@@ -7,11 +7,11 @@ Automated translation linter reports for cs2kz-metamod.
 | Metric | Value |
 |--------|-------|
 | **Linter Errors** | 0 |
-| **Linter Warnings** | 24 |
+| **Linter Warnings** | 23 |
 | **Total Languages** | 13 |
 | **Total Phrases** | 579 |
 | **Phrases Missing Translations** | 359 |
-| **Total Missing Entries** | 2168 |
+| **Total Missing Entries** | 2152 |
 | **Menu Files** | 10 |
 
 ## Language Coverage (Phrases)
@@ -29,7 +29,7 @@ Automated translation linter reports for cs2kz-metamod.
   ru (russian)         [███████████████████░]  98.1% (568/579)
   sv (swedish)         [█████████████░░░░░░░]  68.6% (397/579)
   tr (turkish)         [█████████░░░░░░░░░░░]  46.1% (267/579)
-  ua (ukrainian)       [███████████████████░]  97.2% (563/579)
+  ua (ukrainian)       [████████████████████] 100.0% (579/579)
 ```
 
 ## Menu Translation Status
@@ -79,9 +79,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`d01e353`](https://github.com/laazzee/cs2kz-metamod/commit/d01e35324f59a323d5e47d4d11e7a702e2073788)
-- **Time:** 2026-03-20 10:01:08 UTC
-- **Message:** Add kz_paint[size/color] and kz_cleardecals
+- **Commit:** [`a58f8e8`](https://github.com/laazzee/cs2kz-metamod/commit/a58f8e8e8e04700dfa92faf8d92e252da9c2d18b)
+- **Time:** 2026-03-20 17:46:48 UTC
+- **Message:** Fix color code in Spanish jumpstats phrase (#525)
 
 ---
 
