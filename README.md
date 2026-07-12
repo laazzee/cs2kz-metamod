@@ -79,9 +79,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`34e6dfb`](https://github.com/laazzee/cs2kz-metamod/commit/34e6dfbfcdbbfdbff86427ccd28e4faa1d0349f1)
-- **Time:** 2026-06-17 10:16:51 UTC
-- **Message:** Ukrainian translations (#583)
+- **Commit:** [`449fd83`](https://github.com/laazzee/cs2kz-metamod/commit/449fd83b3b73d1db3df261d12b4839b0ffc363c6)
+- **Time:** 2026-07-12 19:11:17 UTC
+- **Message:** Fix prime detection
 
 ---
 
