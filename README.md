@@ -79,9 +79,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`d252a07`](https://github.com/laazzee/cs2kz-metamod/commit/d252a073bf09b1896ae3acbeb026eb739c39a16c)
-- **Time:** 2026-08-12 17:15:47 UTC
-- **Message:** Print map name to chat on course finish, fix 00:00:00 time being printed in chat
+- **Commit:** [`a37bba2`](https://github.com/laazzee/cs2kz-metamod/commit/a37bba29ab3c1805fecb378955b7985baaff407f)
+- **Time:** 2026-08-19 17:55:37 UTC
+- **Message:** Add styles to cs2kz interface
 
 ---
 
