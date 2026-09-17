@@ -7,11 +7,11 @@ Automated translation linter reports for cs2kz-metamod.
 | Metric | Value |
 |--------|-------|
 | **Linter Errors** | 0 |
-| **Linter Warnings** | 22 |
+| **Linter Warnings** | 23 |
 | **Total Languages** | 13 |
 | **Total Phrases** | 880 |
 | **Phrases Missing Translations** | 664 |
-| **Total Missing Entries** | 4679 |
+| **Total Missing Entries** | 4611 |
 | **Menu Files** | 11 |
 
 ## Language Coverage (Phrases)
@@ -29,7 +29,7 @@ Automated translation linter reports for cs2kz-metamod.
   ru (russian)         [██████████████░░░░░░]  74.5% (656/880)
   sv (swedish)         [████████░░░░░░░░░░░░]  44.5% (392/880)
   tr (turkish)         [█████░░░░░░░░░░░░░░░]  29.8% (262/880)
-  ua (ukrainian)       [██████████████████░░]  92.3% (812/880)
+  ua (ukrainian)       [████████████████████] 100.0% (880/880)
 ```
 
 ## Menu Translation Status
@@ -79,9 +79,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`7d0ef46`](https://github.com/laazzee/cs2kz-metamod/commit/7d0ef46b1a989724721ba0de0046d33ade351dc9)
-- **Time:** 2026-09-13 21:26:20 UTC
-- **Message:** Fix crash on map change
+- **Commit:** [`c588489`](https://github.com/laazzee/cs2kz-metamod/commit/c588489c251a9efc1ef138dd1685e4fe1d1736aa)
+- **Time:** 2026-09-17 19:19:47 UTC
+- **Message:** Fix speed HUD using the wrong players style while spectating, fix  both legacy a
 
 ---
 
