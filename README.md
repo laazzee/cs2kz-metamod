@@ -11,13 +11,13 @@ Automated translation linter reports for cs2kz-metamod.
 | **Total Languages** | 13 |
 | **Total Phrases** | 880 |
 | **Phrases Missing Translations** | 664 |
-| **Total Missing Entries** | 4611 |
+| **Total Missing Entries** | 4528 |
 | **Menu Files** | 11 |
 
 ## Language Coverage (Phrases)
 
 ```
-  chi (schinese)       [██████████████████░░]  90.6% (797/880)
+  chi (schinese)       [████████████████████] 100.0% (880/880)
   de (german)          [███████████░░░░░░░░░]  58.3% (513/880)
   en (english)         [████████████████████] 100.0% (880/880)
   es (spanish)         [███████████░░░░░░░░░]  55.7% (490/880)
@@ -79,9 +79,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`c588489`](https://github.com/laazzee/cs2kz-metamod/commit/c588489c251a9efc1ef138dd1685e4fe1d1736aa)
-- **Time:** 2026-09-17 19:19:47 UTC
-- **Message:** Fix speed HUD using the wrong players style while spectating, fix  both legacy a
+- **Commit:** [`ee5ba00`](https://github.com/laazzee/cs2kz-metamod/commit/ee5ba00baa0669d83ef6b3a802a8bfb036646eb9)
+- **Time:** 2026-09-19 06:30:41 UTC
+- **Message:** clang-format, fix ranked course warnings
 
 ---
 
