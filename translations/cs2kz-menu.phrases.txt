@@ -68,11 +68,12 @@
 	"Menu - Game HUD All Sub"
 	{
 		"en"		"The only way to hide chat and the radar. Also applies to anyone spectating you directly"
-		"ua"		"Єдиний спосіб приховати чат і радар"
+		"ua"		"Єдиний спосіб приховати чат і радар. Також застосовується до будь-кого, хто спостерігає за вами безпосередньо"
 	}
 	"Menu - Game HUD Spectators Sub"
 	{
 		"en"		"Also applies to anyone spectating you directly"
+		"ua"		"Також застосовується до будь-кого, хто спостерігає за вами безпосередньо"
 	}
 	"Menu - Game HUD Crosshair"
 	{
@@ -1365,10 +1366,12 @@
 	"Menu - JS Compact"
 	{
 		"en"		"Compact"
+		"ua"		"Компактна панель"
 	}
 	"Menu - JS Compact Sub"
 	{
 		"en"		"Only the pills, with no panel. The history is always on"
+		"ua"		"Лише міні-сповіщення, без панелі. Історія завжди відображається"
 	}
 	"Menu - JS History"
 	{
@@ -1533,7 +1536,7 @@
 	"Menu - Course Show Splits Sub"
 	{
 		"en"		"A pill for every split, checkpoint and stage, against your !comparelevel time"
-		"ua"		"Індикатор для кожного спліту, контрольної точки та етапу, у порівнянні з вашим часом !comparelevel"
+		"ua"		"Міні-сповіщення для кожного спліту, контрольної точки та етапу, у порівнянні з вашим часом !comparelevel"
 	}
 	"Menu - Color Early"
 	{
