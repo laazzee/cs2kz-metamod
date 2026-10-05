@@ -80,9 +80,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`75d39c0`](https://github.com/laazzee/cs2kz-metamod/commit/75d39c0c84a9f56682e67539f27549123ca0ddf7)
-- **Time:** 2026-10-04 09:32:25 UTC
-- **Message:** Russian translations (#654)
+- **Commit:** [`442e727`](https://github.com/laazzee/cs2kz-metamod/commit/442e727bd0235e59dd5b14c8b431e03979a08e13)
+- **Time:** 2026-10-05 08:51:39 UTC
+- **Message:** Migrate replay uploads to http instead of websocket, remove binary websocket mes
 
 ---
 
