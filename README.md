@@ -11,13 +11,13 @@ Automated translation linter reports for cs2kz-metamod.
 | **Total Languages** | 14 |
 | **Total Phrases** | 995 |
 | **Phrases Missing Translations** | 995 |
-| **Total Missing Entries** | 6460 |
+| **Total Missing Entries** | 6357 |
 | **Menu Files** | 11 |
 
 ## Language Coverage (Phrases)
 
 ```
-  chi (schinese)       [█████████████████░░░]  87.4% (870/995)
+  chi (schinese)       [███████████████████░]  97.8% (973/995)
   de (german)          [██████████░░░░░░░░░░]  52.1% (518/995)
   en (english)         [████████████████████] 100.0% (995/995)
   es (spanish)         [█████████░░░░░░░░░░░]  48.6% (484/995)
@@ -80,9 +80,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`442e727`](https://github.com/laazzee/cs2kz-metamod/commit/442e727bd0235e59dd5b14c8b431e03979a08e13)
-- **Time:** 2026-10-05 08:51:39 UTC
-- **Message:** Migrate replay uploads to http instead of websocket, remove binary websocket mes
+- **Commit:** [`3848ade`](https://github.com/laazzee/cs2kz-metamod/commit/3848adea4644bc080bfec42441b864f3c4d99acc)
+- **Time:** 2026-10-08 11:36:24 UTC
+- **Message:** Add missing Simplified Chinese translations (#655)
 
 ---
 
