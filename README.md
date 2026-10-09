@@ -8,16 +8,16 @@ Automated translation linter reports for cs2kz-metamod.
 |--------|-------|
 | **Linter Errors** | 0 |
 | **Linter Warnings** | 24 |
-| **Total Languages** | 14 |
+| **Total Languages** | 15 |
 | **Total Phrases** | 995 |
 | **Phrases Missing Translations** | 995 |
-| **Total Missing Entries** | 6357 |
+| **Total Missing Entries** | 6392 |
 | **Menu Files** | 11 |
 
 ## Language Coverage (Phrases)
 
 ```
-  chi (schinese)       [███████████████████░]  97.8% (973/995)
+  chi (schinese)       [██████████████████░░]  94.0% (935/995)
   de (german)          [██████████░░░░░░░░░░]  52.1% (518/995)
   en (english)         [████████████████████] 100.0% (995/995)
   es (spanish)         [█████████░░░░░░░░░░░]  48.6% (484/995)
@@ -30,7 +30,8 @@ Automated translation linter reports for cs2kz-metamod.
   ru (russian)         [███████████████████░]  99.9% (994/995)
   sv (swedish)         [███████░░░░░░░░░░░░░]  39.4% (392/995)
   tr (turkish)         [█████░░░░░░░░░░░░░░░]  26.3% (262/995)
-  ua (ukrainian)       [███████████████████░]  99.7% (992/995)
+  ua (ukrainian)       [████████████████████] 100.0% (995/995)
+  zho (tchinese)       [████████████████████] 100.0% (995/995)
 ```
 
 ## Menu Translation Status
@@ -80,9 +81,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`3848ade`](https://github.com/laazzee/cs2kz-metamod/commit/3848adea4644bc080bfec42441b864f3c4d99acc)
-- **Time:** 2026-10-08 11:36:24 UTC
-- **Message:** Add missing Simplified Chinese translations (#655)
+- **Commit:** [`19a2ef5`](https://github.com/laazzee/cs2kz-metamod/commit/19a2ef5859dfcd4eca89e775c50c2a5afe18de5c)
+- **Time:** 2026-10-09 12:36:19 UTC
+- **Message:** Add Traditional Chinese (zho) translations (#657)
 
 ---
 
