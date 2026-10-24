@@ -7,31 +7,31 @@ Automated translation linter reports for cs2kz-metamod.
 | Metric | Value |
 |--------|-------|
 | **Linter Errors** | 0 |
-| **Linter Warnings** | 24 |
+| **Linter Warnings** | 2 |
 | **Total Languages** | 15 |
-| **Total Phrases** | 1073 |
-| **Phrases Missing Translations** | 1073 |
-| **Total Missing Entries** | 7484 |
+| **Total Phrases** | 1109 |
+| **Phrases Missing Translations** | 1109 |
+| **Total Missing Entries** | 7722 |
 | **Menu Files** | 11 |
 
 ## Language Coverage (Phrases)
 
 ```
-  chi (schinese)       [█████████████████░░░]  87.1% (935/1073)
-  de (german)          [█████████░░░░░░░░░░░]  48.3% (518/1073)
-  en (english)         [████████████████████] 100.0% (1073/1073)
-  es (spanish)         [█████████░░░░░░░░░░░]  45.1% (484/1073)
-  fi (finnish)         [████░░░░░░░░░░░░░░░░]  21.7% (233/1073)
-  it (italian)         [████░░░░░░░░░░░░░░░░]  21.0% (225/1073)
-  ko (korean)          [████████████░░░░░░░░]  60.8% (652/1073)
-  lv (latvian)         [██████░░░░░░░░░░░░░░]  30.6% (328/1073)
-  nl (dutch)           [░░░░░░░░░░░░░░░░░░░░]   0.5% (5/1073)
-  pl (polish)          [█████████░░░░░░░░░░░]  48.5% (520/1073)
-  ru (russian)         [██████████████████░░]  92.6% (994/1073)
-  sv (swedish)         [███████░░░░░░░░░░░░░]  36.5% (392/1073)
-  tr (turkish)         [████░░░░░░░░░░░░░░░░]  24.4% (262/1073)
-  ua (ukrainian)       [██████████████████░░]  92.7% (995/1073)
-  zho (tchinese)       [██████████████████░░]  92.7% (995/1073)
+  chi (schinese)       [██████████████████░░]  91.5% (1015/1109)
+  de (german)          [█████████░░░░░░░░░░░]  47.1% (522/1109)
+  en (english)         [████████████████████] 100.0% (1109/1109)
+  es (spanish)         [████████░░░░░░░░░░░░]  43.8% (486/1109)
+  fi (finnish)         [████░░░░░░░░░░░░░░░░]  21.2% (235/1109)
+  it (italian)         [████░░░░░░░░░░░░░░░░]  20.5% (227/1109)
+  ko (koreana)         [███████████░░░░░░░░░]  59.2% (656/1109)
+  lv (latvian)         [█████░░░░░░░░░░░░░░░]  29.8% (330/1109)
+  nl (dutch)           [░░░░░░░░░░░░░░░░░░░░]   0.5% (5/1109)
+  pl (polish)          [█████████░░░░░░░░░░░]  47.2% (524/1109)
+  ru (russian)         [█████████████████░░░]  90.0% (998/1109)
+  sv (swedish)         [███████░░░░░░░░░░░░░]  35.5% (394/1109)
+  tr (turkish)         [████░░░░░░░░░░░░░░░░]  23.8% (264/1109)
+  ua (ukrainian)       [███████████████████░]  97.1% (1077/1109)
+  zho (tchinese)       [███████████████████░]  96.6% (1071/1109)
 ```
 
 ## Menu Translation Status
@@ -81,9 +81,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`df0abea`](https://github.com/laazzee/cs2kz-metamod/commit/df0abea78c2db6908002558d9599476919bb55ce)
-- **Time:** 2026-10-11 11:13:34 UTC
-- **Message:** Add categorized !help UI, add missing command descriptions (#652)
+- **Commit:** [`0bf3802`](https://github.com/laazzee/cs2kz-metamod/commit/0bf380213371f8b11c0f7d926ecf5a76bc607014)
+- **Time:** 2026-10-24 10:40:51 UTC
+- **Message:** Temporarily pull the HUD out until workshop is updated
 
 ---
 
